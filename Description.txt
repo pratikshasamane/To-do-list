@@ -1,0 +1,28 @@
+Mini Project: To-Do List App with User Authentication
+
+Description:
+Build a simple To-Do List app where users can register, log in, and manage their tasks. Users should be able to create, update, and delete their tasks. Tasks should be associated with the user who created them, and each user should only be able to see and manage their own tasks after logging in.
+
+Features:
+
+User Registration: Allow users to register with a unique username and email.
+User Login: Users should be able to log in using their registered credentials.
+JWT Token Authentication: Use JWT to authenticate users and protect the routes that require authentication.
+Create Task: Authenticated users can create new tasks with a title and description.
+Read Task: Authenticated users can view their own tasks on the dashboard.
+Update Task: Authenticated users can update the title and description of their tasks.
+Delete Task: Authenticated users can delete their tasks from the dashboard.
+Error Handling: Implement proper error handling and display meaningful error messages to users.
+Technologies:
+
+Node.js and Express for the backend server.
+MongoDB for database storage.
+Mongoose for database modeling and interacting with MongoDB.
+JWT for user authentication and generating tokens.
+HTML, CSS, and JavaScript for the frontend UI.
+Optional Enhancements:
+
+Add task priority or due date feature.
+Implement task filtering and sorting options.
+Allow users to mark tasks as completed.
+Add responsive design to make the app mobile-friendly.
